@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Git 操作手册"
 permalink: /git_handbook/
+---
 
 # Git 操作手册
 

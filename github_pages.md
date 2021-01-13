@@ -1,6 +1,8 @@
+---
 layout: page
 title: "10分钟开启 Github Pages 之旅"
 permalink: /github_pages/
+---
 
 # 10分钟开启 Github Pages 之旅
 
