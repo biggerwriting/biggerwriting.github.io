@@ -5,4 +5,5 @@ title: 'Memory Cards 2'
 layout: 'memory-cards2'
 type: "games"
 summary: '翻卡记忆游戏-单机版'
+tags: ["memory"]
 ---
