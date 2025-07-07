@@ -1,0 +1,22 @@
+main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 100
+  - identifier: posts
+    name: Posts
+    pageRef: '/posts'
+    url: /posts
+    weight: 200
+  - identifier: games
+    name: Games
+    url: /games
+    weight: 300
+  - identifier: tools
+    name: Tools
+    url: /tools
+    weight: 400
+  - identifier: tags
+    name: Tags
+    url: /tags
+    weight: 500
