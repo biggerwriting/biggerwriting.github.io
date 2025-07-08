@@ -7,3 +7,18 @@ hugo new site biggerwriting --format yaml
 ## 设计首页
 
 因为自己实在没啥审美且不会写样式，就请先写出最丑的原始版本再去优化吧。
+
+关联到网站 [aiwith.fun](https://aiwith.fun)
+
+
+## 部署到netlify
+hugo --minify --baseURL $DEPLOY_PRIME_URL
+
+### 需要安装
+~~npm install hugo-cli --save-dev~~
+
+### 本地预览
+hugo server -e production --minify --cleanDestinationDir
+
+### 官网参考文档
+https://gohugo.io/host-and-deploy/host-on-netlify/
