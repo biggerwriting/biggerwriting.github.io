@@ -1,6 +1,6 @@
 ---
 date: '2025-07-07T20:41:00+08:00'
-draft: true
+draft: false
 title: 'Games'
 ---
 

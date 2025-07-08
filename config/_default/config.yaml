@@ -2,3 +2,4 @@ title: Bigger Writing
 languageCode: zh-cn
 theme: draft
 enableEmoji: true
+baseURL: https://aiwith.fun/
