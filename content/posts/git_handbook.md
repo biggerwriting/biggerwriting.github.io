@@ -2,6 +2,7 @@
 layout: page
 title: "Git 操作手册"
 permalink: /git_handbook/
+summary: "Git 是一个分布式版本控制系统，用于管理和跟踪项目的源代码。它是最流行的版本控制系统之一，被广泛用于开源和商业软件开发。"
 ---
 
 # Git 操作手册

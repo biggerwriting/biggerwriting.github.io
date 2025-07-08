@@ -2,6 +2,7 @@
 layout: page
 title: "10分钟开启 Github Pages 之旅"
 permalink: /github_pages/
+summary: "GitHub页面是托管的公共网页，可以通过GitHub轻松发布。 最快的启动和运行方式是使用Jekyll Theme Chooser加载预制主题。 然后，您可以通过Web远程或在计算机上本地修改GitHub Pages的内容和样式。"
 ---
 
 # 10分钟开启 Github Pages 之旅
