@@ -1,6 +1,6 @@
 title: Bigger Writing
 languageCode: zh-cn
-theme: draft
+theme: dodeca
 enableEmoji: true
 baseURL: https://aiwith.fun/
 mainsections: ["posts", "games","tools"]
