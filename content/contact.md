@@ -5,4 +5,3 @@ title: 'Contact'
 ---
 
 content/contact.md
-
