@@ -4,5 +4,12 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-## content 下的主页
+## content 下的主页H2
 
+随便写段落内容。
+
+This is my portfolio.
+On this site, you'll find
+* My biography
+* My projects
+* My résumé
