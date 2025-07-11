@@ -1,9 +1,64 @@
+:root {
+  --text: #030607;
+  --background: #f7fbfd;
+  --primary: #4496c5;
+  --secondary: #92a4dd;
+  --accent: #767ed6;
+}
+
 body {
-  color: #222;
-  font-family: sans-serif;
+  color: var(--text);
   line-height: 1.5;
   margin: 1rem;
   max-width: 768px;
+}
+@import url('https://fonts.googleapis.com/css?family=Doppio%20One:700|Doppio%20One:400');
+
+body {
+  font-family: 'Doppio One';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Doppio One';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+nav,footer {
+  background-color: var(--background);
+  color: var(--text);
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav>a{
+  flex:1;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text);
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    flex-direction: row;
+  }
 }
 
 header {
