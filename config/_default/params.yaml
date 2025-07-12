@@ -30,3 +30,5 @@ about_us: >
   live in it.
 recent_posts:
   enable: true
+author: Dodeca
+description: "my notebook"
