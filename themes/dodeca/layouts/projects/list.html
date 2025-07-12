@@ -3,6 +3,13 @@
 {{.Content }}
 <section class="projects">
     <section class="project">
+        {{ with site.GetPage "/opensource.md" }}
+        <h3><a href="{{.RelPermalink }}">{{.Title }}</a></h3>
+        <p> {{.Summary}}</p>
+        {{ end }}
+    </section>
+    
+    <section class="project">
 
         {{ range.Pages }}
         <h3><a href="{{.RelPermalink }}">{{.Title }}</a></h3>

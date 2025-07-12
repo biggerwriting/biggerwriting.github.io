@@ -121,3 +121,20 @@ a {
 .project img {
   max-width: 100%;
 }
+
+.oss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.oss article {
+  /* border: 1px solid var(--accent); */
+  box-shadow: 5px 5px 8px var(--accent);
+  margin: 0.5%;
+  padding: 0.5%;
+  width: 30%;
+}
+.oss article h3 {
+  overflow: hidden;
+}

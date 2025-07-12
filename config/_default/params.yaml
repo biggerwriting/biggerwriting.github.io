@@ -32,3 +32,5 @@ recent_posts:
   enable: true
 author: Dodeca
 description: "my notebook"
+gh_url: https://api.github.com/users/
+gh_user: biggerwriting

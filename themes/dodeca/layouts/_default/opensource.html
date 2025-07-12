@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <h1>{{.Title }}</h1>
+  {{.Content }}
+ 
+ {{ $url := printf "%s%s/repos" .Site.Params.gh_url .Site.Params.gh_user }}
+ 
+  {{ printf "URL: %s" $url }}
+ 
+  {{- /* Replace getJSON with resources.GetRemote + transform.Unmarshal */ -}}
+  {{ $repos := resources.GetRemote $url | transform.Unmarshal }}
+  
+
+  <section class="oss">
+    {{range $repos}}
+    <article>
+        <h3><a href="{{ .html_url }}"> {{.name}} </a></h3>
+        <p> {{ .description}} </p>
+    </article>
+    {{end}}
+  </section>
+
+{{ end }}
