@@ -9,5 +9,16 @@
 ">
 <meta name="author" content="{{ site.Params.author }}">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ range .AlternativeOutputFormats }}
+    {{- $link := `<link rel="%s" type="%s" href="%s" title="%s">` -}}
+    {{- $title := printf "%s - %s" $.Page.Title $.Site.Title -}}
+
+    {{- if $.Page.IsHome -}}
+    {{ $title = $.Site.Title }}
+    {{- end -}}
+
+    {{printf $link .Rel .MediaType .Permalink  $title | safeHTML}}
+{{ end }}
+
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
