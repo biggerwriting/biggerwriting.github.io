@@ -1,0 +1,6 @@
+{
+    "accounts": [
+        {"name": "github", "url":"https://github.com/biggerwriting"},
+        {"name": "ins", "url":"http://ins.com/me" }
+    ]
+}
