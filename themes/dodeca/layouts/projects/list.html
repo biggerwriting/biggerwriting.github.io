@@ -6,6 +6,7 @@
 
         {{ range.Pages }}
         <h3><a href="{{.RelPermalink }}">{{.Title }}</a></h3>
+        <p> {{ .Summary}}</p>
         {{ end }}
     </section>
 </section>
