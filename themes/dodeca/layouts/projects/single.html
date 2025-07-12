@@ -1,22 +1,22 @@
 {{ define "main" }}
 
 <div class="project-container">
-<section class="project-list">
-<h2>    Projects</h2>
-<ul>
-    {{ range first 10 (where .Site.RegularPages "Type" "in" "projects").ByDate.Reverse }}
+    <section class="project-list">
+        <h4>Projects</h4>
+        <ul>
+            {{ range first 10 (where .Site.RegularPages "Type" "in" "projects").ByDate.Reverse }}
 
-    <li><a href="{{.RelPermalink }}">{{.Title }}</a></li>
+            <li><a href="{{.RelPermalink }}">{{.Title }}</a></li>
 
-    {{ end }}
-</ul>
-</section>    
+            {{ end }}
+        </ul>
+    </section>
 
-<section class="project">
-<h2>{{ .Title}}</h2>
+    <section class="project">
+        <h2>{{ .Title}}</h2>
 
-{{.Content}}
-</section>
+        {{.Content}}
+    </section>
 
 </div>
 {{ end }}
