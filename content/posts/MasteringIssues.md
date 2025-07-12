@@ -1,8 +1,12 @@
++++
+title = '翻译 - 掌握Issues'
+draft = false
+tags = ['github', 'issues']
+summary = 'github, issues'
++++
 # 翻译 - 掌握Issues
 
 https://guides.github.com/features/issues/
-
-
 
 Issues 是一个跟踪项目的任务、增强、缺陷的好方法。它有点像电子邮件，还可以与团队成员分享和讨论。大部分软件项目有缺陷跟踪器，GitHub 的跟踪器就叫 __Issues__，在每个存储库中都有自己的部分。
 
