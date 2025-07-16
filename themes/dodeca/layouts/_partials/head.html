@@ -8,6 +8,15 @@
 {{- end -}}
 ">
 <meta name="author" content="{{ site.Params.author }}">
+
+{{ $keywords := site.Params.defaultKeywords }}
+{{ with .Params.keywords }}
+{{ $keywords = .}}
+{{ end }}
+{{ if $keywords -}}
+<meta name="keywords" content="{{ delimit $keywords ", " }}">
+{{ end }}
+
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ range .AlternativeOutputFormats }}
     {{- $link := `<link rel="%s" type="%s" href="%s" title="%s">` -}}
