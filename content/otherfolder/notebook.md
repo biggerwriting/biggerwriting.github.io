@@ -9,6 +9,7 @@ title: 'Notebook'
 ![alt](//via.placeholder.com/640x150)
 
 Description...
+<!--more-->
 
 ### Tech used
 
