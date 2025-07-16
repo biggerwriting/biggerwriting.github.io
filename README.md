@@ -22,3 +22,7 @@ hugo server -e production --minify --cleanDestinationDir
 
 ### 官网参考文档
 https://gohugo.io/host-and-deploy/host-on-netlify/
+
+### 新建了模板
+`hugo new content/otherfolder/notebook.md -k projects`
+`hugo new projects/awesomeco.md`
