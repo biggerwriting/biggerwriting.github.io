@@ -3,6 +3,12 @@ title: 'Washing Mathine'
 date: '2025-07-16T22:46:54+08:00'
 draft: true
 author: 王十二
+categories:
+- Personal
+- Thoughts
+tags:
+- software
+- html
 ---
 这里写文章的摘要
 <!--more-->
