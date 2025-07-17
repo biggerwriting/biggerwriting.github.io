@@ -1,0 +1,22 @@
+{
+  "name": "biggerwriting.github.io",
+  "version": "1.0.0",
+  "description": "biggerwriting git page ",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo --cleanDestinationDir",
+    "dev": "hugo server --disableFastRender",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biggerwriting/biggerwriting.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biggerwriting/biggerwriting.github.io/issues"
+  },
+  "homepage": "https://github.com/biggerwriting/biggerwriting.github.io#readme"
+}
