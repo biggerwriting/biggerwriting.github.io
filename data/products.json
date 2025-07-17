@@ -1,0 +1,22 @@
+[
+  {
+    "id": "p1",
+    "name": "Product One",
+    "slug": "product-one"
+  },
+  {
+    "id": "p2",
+    "name": "Product Two",
+    "slug": "product-two"
+  },
+  {
+    "id": "p3",
+    "name": "Product Two",
+    "slug": "slug-is-unique"
+  },
+  {
+    "id": "p4",
+    "name": "Product Two",
+    "slug": "what-for"
+  }
+]
